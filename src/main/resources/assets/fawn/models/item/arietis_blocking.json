@@ -1,0 +1,34 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "fawn:item/arietis"
+	},
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 0, 135],
+			"translation": [-7.5, -2, -0.5],
+			"scale": [1.6, 1.6, 1]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 180, -135],
+			"translation": [-7.5, -2, -0.5],
+			"scale": [1.6, 1.6, 1]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 0, 110],
+			"translation": [-8.5, 3.95, 1.13],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 180, -110],
+			"translation": [-8.5, 3.95, 1.13],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"ground": {
+			"translation": [0, 3.25, 0],
+			"scale": [0.68, 0.68, 0.68]
+		}
+	}
+}

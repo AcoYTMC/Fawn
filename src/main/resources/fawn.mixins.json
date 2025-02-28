@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "com.fawn.fawn.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"PlayerEntityMixin",
+		"ServerPlayerEntityMixin"
+	],
+	"client": [
+		"client.ClientPlayerEntityMixin",
+		"client.PlayerEntityRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
